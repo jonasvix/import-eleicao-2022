@@ -10,7 +10,7 @@ libMongo.start(function (err) {
     } else if (process.env.NODE_ENV == 'import1') {
         require('./lib-import');
     } else {
-        console.info(`Exec: npm start; ou npm run import1; ou npm run import2. "${process.env.NODE_ENV}"`);
+        console.info(`Exec: npm start; ou npm run import1. "${process.env.NODE_ENV}"`);
     }
 });
 
