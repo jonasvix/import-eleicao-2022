@@ -1,0 +1,22 @@
+{
+  "name": "import-eleicao-2022-1",
+  "version": "1.0.0",
+  "description": "Importar dados eleição 2022 - 1 turno",
+  "main": "app.js",
+  "private": true,
+  "engines": {
+    "node": ">=14.17.5",
+    "npm": ">=6.14.14"
+  },
+  "scripts": {
+    "start": "set NODE_ENV=web&& node ./app.js",
+    "import1": "set NODE_ENV=import1&& node --max-old-space-size=10192 ./app.js",
+    "import2": "set NODE_ENV=import2&& node --max-old-space-size=10192 ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonas",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  }
+}
