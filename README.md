@@ -14,7 +14,7 @@ Para a consultar web:
 ## Baixe os arquivos da página do TSE, e salve na pasta 'data-tse', precisa fazer o unzip dos arquivos:
 https://dadosabertos.tse.jus.br/dataset/resultados-2022
 
-Como deve ficara pasta 'data-tse':
+Como deve ficar a pasta 'data-tse':
 ![plot](./data-tse/exemplo-pasta-data-tse.png)
 
 
